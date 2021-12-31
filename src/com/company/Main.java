@@ -19,6 +19,14 @@ public class Main {
         System.out.printf("Subtração: %3.2f - %3.2f = %3.2f\n", num1, num2, Calculadora.subtrair(num1,num2));
         System.out.printf("Multiplicação: %3.2f * %3.2f = %3.2f\n", num1, num2, Calculadora.multiplicar(num1,num2));
         System.out.printf("Dividisão: %3.2f / %3.2f = %3.2f\n", num1, num2, Calculadora.dividir(num1,num2));
+
+        // Imprime o valor final do empréstimo
+        Emprestimo.calcular(1000,1);
+        Emprestimo.calcular(1000,2);
+        Emprestimo.calcular(1000,3);
+        Emprestimo.calcular(1000,4);
+        Emprestimo.calcular(1000,10);
+
     }
 
 
